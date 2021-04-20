@@ -1,0 +1,14 @@
+<table class="table">
+     <tr>
+          <td>Ürün ID'si</td>
+          <td>Ürün Adı</td>
+          <td>Kategori Id'si</td>
+          <td>Ürün fiyatı</td>
+     </tr>
+     <tr *ngFor = "let product of products">
+          <td>{{product.productId}}</td>
+          <td>{{product.productName}}</td>
+          <td>{{product.categoryId}}</td>
+          <td>{{product.unitPrice}}</td>
+     </tr>
+</table>
